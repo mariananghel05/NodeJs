@@ -1,0 +1,9 @@
+const express = require('express');
+const router = express.Router();
+//const post = require('./users');
+
+
+//router.use('/', post);
+
+
+module.exports = router;
