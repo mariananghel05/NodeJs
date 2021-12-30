@@ -14,6 +14,7 @@ app.use(express.static('public'));
 app.use(helmet());
 app.use(router);
 
+
 //Listening
 const port = process.env.PORT || 3000;
 app.listen(port, ()=>{console.log(`Listening on port ${port}`);});
@@ -28,3 +29,5 @@ const sslServer = https.createServer({
 
 sslServer.listen(port, ()=>{console.log(`Listening on port ${port}`)});
 */
+
+//just a sipmple comm
