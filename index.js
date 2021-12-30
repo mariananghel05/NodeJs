@@ -29,5 +29,3 @@ const sslServer = https.createServer({
 
 sslServer.listen(port, ()=>{console.log(`Listening on port ${port}`)});
 */
-
-//just a sipmple comm
