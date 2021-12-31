@@ -1,7 +1,7 @@
 //Imports
 const express = require('express');
 const app = express();
-const router = require('./route/router');
+const router = require('./src/route/router');
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
